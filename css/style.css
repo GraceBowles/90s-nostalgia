@@ -13,4 +13,17 @@ html {
 *, *::before, *::after {
     box-sizing: border-box; 
 }
+img {
+    width: 100%;
+}
+
+.hero{
+    width: 100%;
+    padding: 10em 0;
+    background-image: url("../images/greatest-90s-fashion-trends.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
    
