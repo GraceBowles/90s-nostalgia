@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box; 
+}
+
 body {
  font-family:'Roboto', sans-serif;
  color: #222;
@@ -7,14 +14,16 @@ body {
  margin: block; 
 }
 
-html {
-    box-sizing: border-box;
-}
-*, *::before, *::after {
-    box-sizing: border-box; 
-}
+
 img {
     width: 100%;
+}
+
+.logo {
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .hero{
