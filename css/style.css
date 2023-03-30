@@ -41,4 +41,10 @@ img {
     padding: .5em .5em .75em .75em;
 }
 
+header{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-right: 0em;
+    padding-left: 0em;
+}
    
