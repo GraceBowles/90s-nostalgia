@@ -47,4 +47,15 @@ header{
     padding-right: 0em;
     padding-left: 0em;
 }
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0em;
+    text-align: center;
+}
+nav{
+    display: contents;
+    padding-left: .5em .5em .75em .75em;
+    border-radius: 8px;
+}
    
