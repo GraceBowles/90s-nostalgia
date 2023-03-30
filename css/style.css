@@ -98,4 +98,7 @@ h1 .hero{
 .trends {
     background-color: purple;
 }
-   
+.trends img{
+    width: 22%;
+    align-content: center;
+}
