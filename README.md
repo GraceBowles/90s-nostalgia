@@ -48,7 +48,7 @@
   - Place list items beside one another
   - Remove default padding on the unordered list
   - Center text within the link after padding has been applied to the link
-
+ 
 10. Update the `nav` links
   - Apply an appropriate display property value so that you are able to add padding
   - Add padding to the top and bottom with the value of `.5em` and set the left and right value to `.75em` 
