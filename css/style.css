@@ -8,73 +8,71 @@ html {
 body {
  font-family:'Roboto', sans-serif;
  color: #222;
- line-height: 1.4;
+ line-height: 1.4rem;
  font-size: 110%;
  background-color: white;
  margin: block; 
 }
 
-
 img {
     width: 100%;
 }
 
-.logo {
+div.logo {
     width: 160px;
     display: block;
-    margin-left: auto;
-    margin-right:auto;
+    margin: 0 auto
 }
 
-.hero{
-    width: 100%;
-    padding: 10em 0;
-    background-image: url("../images/greatest-90s-fashion-trends.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem 0;
 }
 
-.wrapper{
-    width: 100%;
-    margin: auto;
-    padding: .5em .5em .75em .75em;
+header {
+    padding: 1.5rem 0;
 }
 
-header{
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    padding-right: 0em;
-    padding-left: 0em;
-}
-nav ul{
-    list-style-type: none;
-    display: inline-block;
-    padding: 0em;
+nav ul {
+    list-style: none;
+    padding: 0;
     text-align: center;
 }
-nav{
-    display: contents;
-    padding-left: .5em .5em .75em .75em;
+
+nav ul li {
+    display: inline-block;
+    padding: .5em .5em .75em .75em;
     border-radius: 8px;
+    background-color: purple;
 }
-nav :link :focus{
+
+nav:link {
     background-color: purple;
     color: white;
     border: 2px solid;
     border-color: white;
 }
-nav :hover{
-    background-color: white;
-    color: purple;
-    border: 2px solid;
-    border-color: purple;
+
+a.button {
+    text-decoration: none;
+    background-color: purple;
+    color: white;
 }
-nav :focus{
+a.button:visited {
+    background-color: purple;
+    color: white;
+    border: 2px solid white;
+}
+a.button:hover {
     background-color: white;
     color: purple;
-    border: 2px solid;
-    border-color: purple; 
+    border: 2px solid purple;
+}
+a.button:focus {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple; 
 }
 .hero{
     width: 100%;
@@ -85,45 +83,57 @@ nav :focus{
     background-position: top center;
 
 }
-h1 .hero{
+h1 {
     width: 75%;
-    padding: .5em .5em .5em .5em;
-    text-align: center;
-    margin: auto;
+    padding: .5em;
+    margin: 0 auto;
     color: white;
+    text-align: center;
     font-size: 2rem;
-    text-shadow: 2px #0008;
-    background-color: #000025;
+    text-shadow: 2px -2px rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.25);
 }
+
 .trends {
     background-color: purple;
 }
-.trends img{
+
+figure {
     width: 22%;
-    align-content: center;
+    display: inline-block;
+    margin: center;
 }
-.fig caption{
+.figcaption{
+    text-align: center;
     color: white;
     font-style: italic;
 }
+
 .icon {
-    display: contents;
+    display: inline-block;
     padding: 2em 2em 0em 0em;
 }
-.icon img{
+
+.icon img {
   width: 260px;  
-  float:left;
-  margin: 2em;
+  float: left;
+  margin-right: 2em;
 }
-.icon p:last-of-type{
-    float: right;
+
+.featured-articles {
+    display: none;
 }
-.footer {
+
+div.icon ~ p {
+    float: none;
+}
+
+footer {
     background-color: black;
     color: white;
 }
 
-.footer p{
-    align-content: center;
-    padding: 8px 8px 0px 0px;
+footer p{
+    text-align: center;
+    padding: 8px 0;
 }
