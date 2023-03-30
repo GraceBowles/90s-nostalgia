@@ -110,3 +110,11 @@ h1 .hero{
     display: contents;
     padding: 2em 2em 0em 0em;
 }
+.icon img{
+  width: 260px;  
+  float:left;
+  margin: 2em;
+}
+.icon p:last-of-type{
+    float: right;
+}
