@@ -85,4 +85,17 @@ nav :focus{
     background-position: top center;
 
 }
+h1 .hero{
+    width: 75%;
+    padding: .5em .5em .5em .5em;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px #0008;
+    background-color: #000025;
+}
+.trends {
+    background-color: purple;
+}
    
