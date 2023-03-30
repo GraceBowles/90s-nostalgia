@@ -102,3 +102,11 @@ h1 .hero{
     width: 22%;
     align-content: center;
 }
+.fig caption{
+    color: white;
+    font-style: italic;
+}
+.icon {
+    display: contents;
+    padding: 2em 2em 0em 0em;
+}
